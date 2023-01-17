@@ -44,13 +44,13 @@ const Footer = () => {
         },
     ]
   return (
-    <div className='text-center bg-gray-800 text-white'>
-        <div className='flex flex-col gap-0 space-y-0 px-6 pt-6'>
-            <div className='flex justify-center'>
+    <div className='text-center bg-gray-800 text-white py-4'>
+        <div className='flex flex-col gap-0 space-y-0 px-6'>
+            <div className='flex justify-center pt-2'>
 
                 {links.map(({id, childs, href}) => (
                     <li key={id} className='leading-normal list-none uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:scale-125 duration-300 transition ease-in-out w-9 h-9 m-1'>
-                        <a href={href} className='w-3 h-full mx-auto'>
+                        <a href={href} className=''>
                             {childs}
                         </a>
                     </li>

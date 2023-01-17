@@ -30,13 +30,13 @@ const Home = () => {
             </p>
 
             <div>
-                <a href='/CV-Alex John Vincent Mataac.pdf' target="_blank" className='group text-[#243763] w-fit px-6 py-3 my-2 flex items-center rounded-md 
+                <a href='/CV - Alex John Vincent Mataac.pdf' target="_blank" className='group text-[#243763] w-fit px-6 py-3 my-2 flex items-center rounded-md 
                 bg-[#FFEBB7] cursor-pointer mb-10'>
                     Resume
                     <span className='group-hover:rotate-0 duration-300'>
                     <HiDocumentDownload size={20} className="ml-1" />
                     </span>
-                </a>
+                </a> 
             </div>
         </div>
 
