@@ -78,14 +78,14 @@ const AboutMe = () => {
        
     ]
   return (
-    <div name='about me' className='w-full bg-[#243763] text-[#FFEBB7]'>
+    <div name='about me' className='w-full pb-80 pt-5 bg-[#243763] text-[#FFEBB7]'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-0 md:pb-8 md:pt-0'>
                 <p className='md:hidden text-4xl font-bold inline border-b-4 border-[#BAD7E9]'>
                     About Me
                     </p>
                     <div className='items-center justify-center grid md:grid-cols-2'>
-                        <img src={Image} alt='' className='py-5 object-scale-down h-50 md: w-96 '/>
+                        <img src={Image} alt='' className='py-10 object-scale-down h-50 md: w-96 '/>
                     <div>
                         {
                             info.map(({id, childs}) => (

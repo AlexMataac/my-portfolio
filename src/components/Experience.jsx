@@ -65,14 +65,14 @@ const Experience = () => {
   return (
     <div 
     name='experience' 
-    className='bg-[#243763] w-full h-full'>
+    className='bg-[#243763] w-full h-full pb-96 pt-5'>
         <div className='max-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-fit text-[#FFEBB7]'>
             <div className='md:hidden'>
                 <p className='text-4xl font-bold border-b-4 border-[#BAD7E9] p-2 inline'>Experience</p>
                 <p className='py-6 pb-5 text-[#FFEBB7]'>These are the technologies I've used with</p>
             </div>
 
-            <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
 
                 {
                     techs.map(({ id, src, title, style }) => (
