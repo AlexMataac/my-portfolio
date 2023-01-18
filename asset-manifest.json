@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.96ebc7af.css",
-    "main.js": "/my-portfolio/static/js/main.a8b1200a.js",
+    "main.js": "/my-portfolio/static/js/main.cb5eb77b.js",
+    "static/media/CV - Alex John Vincent Mataac.pdf": "/my-portfolio/static/media/CV - Alex John Vincent Mataac.82057cdeb759e1af022a.pdf",
     "static/media/Postgre sql.png": "/my-portfolio/static/media/Postgre sql.4a8c66c90ba3b5e27f7c.png",
     "static/media/hero.JPG": "/my-portfolio/static/media/hero.4726b9ed529ba8487fca.JPG",
     "static/media/Program.jpg": "/my-portfolio/static/media/Program.fdb3402e103b8b34b786.jpg",
@@ -15,10 +16,10 @@
     "static/media/javascript.png": "/my-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/my-portfolio/index.html",
     "main.96ebc7af.css.map": "/my-portfolio/static/css/main.96ebc7af.css.map",
-    "main.a8b1200a.js.map": "/my-portfolio/static/js/main.a8b1200a.js.map"
+    "main.cb5eb77b.js.map": "/my-portfolio/static/js/main.cb5eb77b.js.map"
   },
   "entrypoints": [
     "static/css/main.96ebc7af.css",
-    "static/js/main.a8b1200a.js"
+    "static/js/main.cb5eb77b.js"
   ]
 }
