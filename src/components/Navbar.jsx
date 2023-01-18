@@ -16,7 +16,7 @@ const Navbar = () => {
         },
         {
             id: 2,
-            link: 'about me',
+            link: 'aboutme',
             offset: 0,
             linkname: 'about me'
         },
@@ -40,7 +40,7 @@ const Navbar = () => {
         },
         {
             id: 6,
-            link: 'contact me',
+            link: 'contactme',
             offset: -80,
             linkname: 'contact me'
         },

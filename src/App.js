@@ -22,13 +22,13 @@ function App() {
     <>
     <Navbar/>
       <Routes>
-    
+    <Route path="/my-portfolio" element={<Home/>} />
     <Route path="/" element={<Home/>} />
-    <Route path="/about me" element={<AboutMe/>} />
+    <Route path="/aboutme" element={<AboutMe/>} />
     <Route path="/resume" element={<Resume/>} />
     <Route path="/experience" element={<Experience/>} />
     <Route path="/project" element={<Project load={load}/>}/>
-    <Route path="/contact me" element={<Contact/>} />
+    <Route path="/contactme" element={<Contact/>} />
     <Route path="/addemployee" element={<AddEmployee/>} />
 
     
