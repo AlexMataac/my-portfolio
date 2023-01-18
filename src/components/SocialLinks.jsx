@@ -35,7 +35,7 @@ const SocialLinks = () => {
         <FaGithub size={30}/>
         </>
             ),
-            href: 'https://github.com/Mokotokuragi/React-Tailwind-Portfolio',
+            href: 'https://github.com/Mokotokuragi/my-portfolio',
         },
         {
             id: 4,
