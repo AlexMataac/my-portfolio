@@ -66,7 +66,7 @@ const Experience = () => {
     <div 
     name='experience' 
     className='bg-[#243763] w-full pb-96 pt-56'>
-        <div className='max-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-fit text-[#FFEBB7]'>
+        <div className='max-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-[#FFEBB7]'>
             <div className='md:hidden'>
                 <p className='text-4xl font-bold border-b-4 border-[#BAD7E9] p-2 inline'>Experience</p>
                 <p className='py-6 pb-5 text-[#FFEBB7]'>These are the technologies I've used with</p>

@@ -7,9 +7,9 @@ import {MdWork} from 'react-icons/md';
 const Resume = () => {
   return (
     <div name='resume' 
-    className='bg-[#243763] w-full h-full text-[#FFEBB7]'>
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center md:h-screen'>
-            <div className='md:hidden pb-4'>
+    className='bg-[#243763] w-full pb-44 text-[#FFEBB7]'>
+        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center'>
+            <div className='md:hidden pb-10'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#BAD7E9]'>Resume</p>
             </div>
             <VerticalTimeline lineColor='rgb(16, 204, 82)'>

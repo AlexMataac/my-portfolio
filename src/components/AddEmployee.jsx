@@ -27,8 +27,8 @@ const AddEmployee = () => {
     }
 
   return (
-    <div className='flex max-w-2xl bg-[#243763] mx-auto shadow '>
-        <div className='px-8 py-8'>
+    <div className='flex max-w-full p-44 justify-center bg-[#243763] mx-auto shadow '>
+        <div className='m-10 p-16 bg-red-500'>
             <div className='text-[#FFEBB7] font-thin text-2xl tracking-wider'>
                 <h1>New Member</h1>
             </div>
