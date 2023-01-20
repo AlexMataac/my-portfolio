@@ -78,27 +78,26 @@ const AboutMe = () => {
        
     ]
   return (
-    <div name='about me' className='w-full py-32 pt-44 bg-[#243763] text-[#FFEBB7]'>
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full'>
-            <div className='pb-0 md:pb-8 md:pt-0'>
+    <div name='about me' className='w-full p-40 py-20 px-1 bg-[#243763] text-[#FFEBB7]'>
+        <div className='max-w-screen-lg p-10 px-5 mx-auto flex flex-col justify-center w-full'>
+            <div className='pb-0 md:pb-10 md:pt-0'>
                 <p className='md:hidden text-4xl font-bold inline border-b-4 border-[#BAD7E9]'>
                     About Me
                     </p>
-                    <div className='items-center justify-center grid md:grid-cols-2 sm:grid-cols-1'>
-                        <img src={Image} alt='' className='py-10 object-scale-down h-50 md: w-96 '/>
+                    </div>
+                    <div className='items-center px-5 py-5 justify-center grid md:grid-cols-2 sm:grid-cols-1'>
+                        <img src={Image} alt='' className='py-5 px-5 object-scale-down h-50 md:w-max'/>
                     <div>
                         {
                             info.map(({id, childs}) => (
                                 <div key={id}
-                                className='flex flex-col items-start font-medium px-5 py-2 mt-2 text-white'>
+                                className='flex flex-col items-start font-medium px-8 py-2 mt-4 text-white'>
                                     {childs}
                                     </div>
                             ))
                         }
                     </div>
-                        </div>
-
-                    </div>
+                </div>
             </div>
            
         </div>

@@ -46,7 +46,7 @@ const Navbar = () => {
         },
     ]
   return (
-    <div className='flex justify-between items-center w-full z-50 p-5 px-4 text-white bg-black relative'>
+    <div className='flex justify-between items-center w-full z-50 p-5 px-4 text-white bg-black fixed'>
         <div>
             <h1 className='text-5xl font-signature ml-2'>Vincent</h1>
         </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
 
         {nav && (
             <ul className='flex flex-col justify-center items-center absolute
-            top-0 left-0 w-full bg-gradient-to-b from-black to-gray-800 text-gray-500'>
+            top-0 left-0 w-screen h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 '>
     
                 {links.map(({id, link, linkname }) => (
                     <li 

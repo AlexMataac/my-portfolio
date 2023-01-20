@@ -44,12 +44,12 @@ const Footer = () => {
         },
     ]
   return (
-    <div className='text-center bg-gray-800 text-white py-4'>
+    <div className='text-center bg-gray-800 text-white py-6'>
         <div className='flex flex-col gap-0 space-y-0 px-6'>
-            <div className='flex justify-center pt-2'>
+            <div className='flex justify-center'>
 
                 {links.map(({id, childs, href}) => (
-                    <li key={id} className='leading-normal list-none uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:scale-125 duration-300 transition ease-in-out w-9 h-9 m-1'>
+                    <li key={id} className='leading-normal list-none uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:scale-125 duration-300 transition ease-in-out w-9 m-1'>
                         <a href={href} className=''>
                             {childs}
                         </a>
@@ -58,7 +58,7 @@ const Footer = () => {
                 )}
             </div>
 
-            <div className='text-center p-4'>
+            <div className='text-center p-2'>
                 @Vincent2k22
             </div>
         </div>

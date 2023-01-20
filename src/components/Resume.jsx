@@ -7,7 +7,7 @@ import {MdWork} from 'react-icons/md';
 const Resume = () => {
   return (
     <div name='resume' 
-    className='bg-[#243763] w-full pb-44 text-[#FFEBB7]'>
+    className='bg-[#243763] w-full p-56 px-3 lg:pl-16 md:py-28 text-[#FFEBB7]'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center'>
             <div className='md:hidden pb-10'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#BAD7E9]'>Resume</p>
