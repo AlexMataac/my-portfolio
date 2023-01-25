@@ -78,7 +78,7 @@ const AboutMe = () => {
        
     ]
   return (
-    <div name='about me' className='w-full p-40 py-20 px-1 bg-[#243763] text-[#FFEBB7]'>
+    <div name='about me' className='w-full p-40 py-32 px-1 bg-[#243763] text-[#FFEBB7]'>
         <div className='max-w-screen-lg p-10 px-5 mx-auto flex flex-col justify-center w-full'>
             <div className='pb-0 md:pb-10 md:pt-0'>
                 <p className='md:hidden text-4xl font-bold inline border-b-4 border-[#BAD7E9]'>
