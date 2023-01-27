@@ -22,7 +22,7 @@ const Footer = () => {
                 <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/alex-john-vincent-mataac-55192a22a/',
         },
         {
             id: 3,

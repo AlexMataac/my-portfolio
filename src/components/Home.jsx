@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
+import axios from 'axios';
+
 import Me from '../img/hero.JPG';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 import { Button, Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
 import {MdDownload} from 'react-icons/md';
 import PDF from '../assets/CV - Alex John Vincent Mataac.pdf'
+import { useEffect } from 'react';
 
 const Home = () => {
+
   return (
     <div name="home" 
     className='flex p-64 px-1 w-full md:py-48 bg-[#243763]'>

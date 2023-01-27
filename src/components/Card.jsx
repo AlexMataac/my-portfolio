@@ -1,5 +1,5 @@
 import React from 'react';
-import MjolnirProject from '../assets/mjolnir.PNG';
+import MjolnirProject from '../assets/images.jpg';
 import { Link } from 'react-router-dom';
 
 const Card = (props) => {
@@ -8,8 +8,8 @@ const Card = (props) => {
     props.load()
   }
   return (
-    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-[#FFEBB7] mt-5 mb-5">
-      <img class="w-6/12 m-auto mt-3" src={MjolnirProject} alt="" />
+    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-[#FFEBB7] mt-5 mb-6">
+      <img class="m-auto mt-6" src={MjolnirProject} alt="" />
       <div class="px-6 py-4">
         <div class="font-bold text-3xl text-[#243763] mb-3">Mjolnir Project</div>
         <p class="text-[#AD8E70] text-base">

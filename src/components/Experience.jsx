@@ -8,6 +8,7 @@ import Java from '../assets/Java.png';
 import Springboot from '../assets/springboot.png';
 import PostgreSql from '../assets/Postgre sql.png';
 import Github from '../assets/github.png';
+import Tailwind from '../assets/tailwind.png';
 
 
 const Experience = () => {
@@ -61,6 +62,12 @@ const Experience = () => {
             title: 'Git Hub',
             style: 'shadow-green-500'
         },
+        {
+            id: 9,
+            src: Tailwind,
+            title: 'Tailwind',
+            style: 'shadow-violet-500'
+        }
     ]
   return (
     <div 
