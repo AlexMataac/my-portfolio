@@ -58,8 +58,8 @@ const Footer = () => {
                 )}
             </div>
 
-            <div className='text-center p-2'>
-                @Vincent2k22
+            <div className='text-center p-4'>
+                Copyright @ Vincent - 2023. All rights reserved
             </div>
         </div>
     </div>
